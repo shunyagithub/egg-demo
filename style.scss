@@ -1,0 +1,38 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: url("/image/blue-cursor.svg"), auto;
+  a {
+    cursor: url("/image/blue-cursor.svg"), auto;
+  }
+}
+
+#plate {
+  width: 500px;
+  height: 500px;
+  background: pink;
+  border-radius: 50%;
+  cursor: url("/image/egg-cursor.svg"), auto;
+}
+
+.cursor-on {
+  cursor: none !important;
+}
+
+svg {
+  overflow: visible;
+}
+
+#cursor {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  left: 0px; //animation-cursor-position
+  top: 0px; //animation-cursor-position
+  pointer-events: none;
+  opacity: 0;
+  visibility: visible;
+}

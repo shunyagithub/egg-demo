@@ -1,7 +1,7 @@
 const cursor = document.getElementById('cursor');
 const plate = document.getElementById('plate');
 
-//get animating cursor position
+// get animating cursor position
 document.body.addEventListener("mousemove", (e) => {
     const mouseX = e.clientX;
     const mouseY = e.clientY;
@@ -25,7 +25,7 @@ eggCrackTl
     }
 })
 .to("#huevos-crack", {
-    y: 30,
+    y: 15,
     ease: 'back.out(10)'
 })
 .to("#huevos-crack", {

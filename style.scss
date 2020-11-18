@@ -22,17 +22,14 @@ body {
   cursor: none !important;
 }
 
-svg {
-  overflow: visible;
-}
-
 #cursor {
-  width: 64px;
-  height: 64px;
   position: fixed;
-  left: 0px; //animation-cursor-position
-  top: 0px; //animation-cursor-position
+  left: -64px; //animation-cursor-position
+  top: -64px; //animation-cursor-position
   pointer-events: none;
   opacity: 0;
-  visibility: visible;
+  svg {
+    overflow: visible;
+    box-shadow: 0px -0px 10000px transparent; //for chrome
+  }
 }

@@ -29,18 +29,17 @@ body a {
   cursor: none !important;
 }
 
-svg {
-  overflow: visible;
-}
-
 #cursor {
-  width: 64px;
-  height: 64px;
   position: fixed;
-  left: 0px;
-  top: 0px;
+  left: -64px;
+  top: -64px;
   pointer-events: none;
   opacity: 0;
-  visibility: visible;
+}
+
+#cursor svg {
+  overflow: visible;
+  -webkit-box-shadow: 0px -0px 10000px transparent;
+          box-shadow: 0px -0px 10000px transparent;
 }
 /*# sourceMappingURL=style.css.map */

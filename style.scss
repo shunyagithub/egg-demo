@@ -4,9 +4,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: url("/image/blue-cursor.svg"), auto;
+  cursor: url("image/blue-cursor.svg"), auto;
   a {
-    cursor: url("/image/blue-cursor.svg"), auto;
+    cursor: url("image/blue-cursor.svg"), auto;
   }
 }
 
@@ -15,7 +15,7 @@ body {
   height: 500px;
   background: pink;
   border-radius: 50%;
-  cursor: url("/image/egg-cursor.svg"), auto;
+  cursor: url("image/egg-cursor.svg"), auto;
 }
 
 .cursor-on {
